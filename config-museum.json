@@ -1,0 +1,889 @@
+{
+    "default": {
+        "firstScene": "scene1",
+        "author": "花蓮慈濟醫院公傳室",
+        "autoLoad": true,
+        "showControls": false,
+        "autoRotate":-1
+    },
+    "scenes": {
+        "scene1": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi01.jpg",
+            "title": "大愛溯源館",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": 193,
+                    "type": "info",
+                    "text": "<h2>簡介</h2><p>本館2023年5月14日啟用。<br>證嚴法師慈示:「醫療要守護生命、守護健康、守護愛」。建院至今點滴累積了許多人的愛，成就這份守護力量。</p>"
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 157,
+                    "type": "info",
+                    "text": "<img class='hotspot-image' src='https://hlm.tzuchi.com.tw/home/images/01news/2023/05/0514/img_1.jpg'/>"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "進入展區",
+                    "sceneId": "scene2"
+                }
+            ]
+        },
+        "scene2": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi02.jpg",
+            "title": "大愛溯源館2",
+            "yaw":180,
+            "hotSpots": [  
+                {
+                    "pitch": -20,
+                    "yaw": 223,
+                    "type": "scene",
+                    "text": "Go to Scene 3",
+                    "sceneId": "scene3"
+                },             
+                {
+                    "pitch": -40,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "出展區",
+                    "sceneId": "scene1"
+                }
+            ]
+        },
+        "scene3": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi03.jpg",
+            "title": "大愛溯源館3",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": 23,
+                    "type": "scene",
+                    "text": "Go to Scene 2",
+                    "sceneId": "scene2"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 200,
+                    "type": "scene",
+                    "text": "Go to Scene 4",
+                    "sceneId": "scene4"
+                }
+            ]
+        },
+        "scene4": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi04.jpg",
+            "title": "大愛溯源館4",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 185,
+                    "type": "scene",
+                    "text": "Go to Scene 5",
+                    "sceneId": "scene5"
+                },
+                {
+                    "pitch": -30,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 3",
+                    "sceneId": "scene3"
+                }
+            ]
+        },
+        "scene5": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi05.jpg",
+            "title": "大愛溯源館5",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": 190,
+                    "type": "scene",
+                    "text": "Go to Scene 6",
+                    "sceneId": "scene6"
+                },
+                {
+                    "pitch": -30,
+                    "yaw": 100,
+                    "type": "scene",
+                    "text": "Go to Scene 12",
+                    "sceneId": "scene12"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 4",
+                    "sceneId": "scene4"
+                }
+            ]
+        },
+        "scene6": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi06.jpg",
+            "title": "大愛溯源館6",
+            "yaw":90,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 0,
+                    "type": "scene",
+                    "text": "Go to Scene 5",
+                    "sceneId": "scene5"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 89,
+                    "type": "scene",
+                    "text": "Go to Scene 7",
+                    "sceneId": "scene7"
+                }
+            ]
+        },
+        "scene7": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi07.jpg",
+            "title": "大愛溯源館7",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 185,
+                    "type": "scene",
+                    "text": "Go to Scene 8",
+                    "sceneId": "scene8"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 0.3,
+                    "type": "scene",
+                    "text": "Go to Scene 6",
+                    "sceneId": "scene6"
+                }
+            ]
+        },
+        "scene8": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi08.jpg",
+            "title": "大愛溯源館8",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": 190,
+                    "type": "scene",
+                    "text": "Go to Scene 9",
+                    "sceneId": "scene9"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 7",
+                    "sceneId": "scene7"
+                }
+            ]
+        },
+        "scene9": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi09.jpg",
+            "title": "大愛溯源館9",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": 170,
+                    "type": "scene",
+                    "text": "Go to Scene 10",
+                    "sceneId": "scene10"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 90,
+                    "type": "scene",
+                    "text": "Go to Scene 8",
+                    "sceneId": "scene8"
+                }
+            ]
+        },
+        "scene10": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi10.jpg",
+            "title": "大愛溯源館10",
+            "yaw": 95,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 9",
+                    "sceneId": "scene9"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 95,
+                    "type": "scene",
+                    "text": "Go to Scene 11",
+                    "sceneId": "scene11"
+                }
+            ]
+        },
+        "scene11": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi11.jpg",
+            "title": "大愛溯源館11",
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "Go to Scene 13",
+                    "sceneId": "scene13"
+                },
+                {
+                    "pitch": -25,
+                    "yaw": -80,
+                    "type": "scene",
+                    "text": "Go to Scene 10",
+                    "sceneId": "scene10"
+                },
+                
+                {
+                    "pitch": -20,
+                    "yaw": 10,
+                    "type": "info",
+                    "text": "Information Hotspot"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 15,
+                    "type": "info",
+                    "text": "Information Hotspot"
+                }
+            ]
+        },
+        "scene12": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi12.jpg",
+            "title": "大愛溯源館12",
+            "yaw": -90,
+            "hotSpots": [
+                {
+                    "pitch": -40,
+                    "yaw": 90,
+                    "type": "scene",
+                    "text": "Go to Scene 5",
+                    "sceneId": "scene5"
+                },
+                {
+                    "pitch": -25,
+                    "yaw": -90,
+                    "type": "scene",
+                    "text": "Go to Scene 13",
+                    "sceneId": "scene13"
+                }
+            ]
+        },
+        "scene13": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi13.jpg",
+            "title": "大愛溯源館13",
+            "yaw": 180,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 11",
+                    "sceneId": "scene11"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 190 ,
+                    "type": "scene",
+                    "text": "Go to Scene 14",
+                    "sceneId": "scene14"
+                }
+            ]
+        },
+        "scene14": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi14.jpg",
+            "title": "大愛溯源館14",
+            "yaw":180,
+            "hotSpots": [             
+                {
+                    "pitch": -20,
+                    "yaw": 190 ,
+                    "type": "scene",
+                    "text": "出展區",
+                    "sceneId": "scene1"
+                }
+            ]
+        },
+        "scene15": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi15.jpg",
+            "title": "大愛溯源館15",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 14",
+                    "sceneId": "scene14"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 16",
+                    "sceneId": "scene16"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 10,
+                    "type": "info",
+                    "text": "Information Hotspot"
+                }
+            ]
+        },
+        "scene16": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi16.jpg",
+            "title": "大愛溯源館16",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 15",
+                    "sceneId": "scene15"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 17",
+                    "sceneId": "scene17"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 10,
+                    "type": "info",
+                    "text": "i35, i35.1, 骨髓區1"
+                }
+            ]
+        },
+        "scene17": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi17.jpg",
+            "title": "大愛溯源館17",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 16",
+                    "sceneId": "scene16"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 31",
+                    "sceneId": "scene31"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 10,
+                    "type": "info",
+                    "text": "i35, i35.1, 骨髓區1"
+                }
+            ]
+        },
+        "scene18": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi18.jpg",
+            "title": "大愛溯源館18",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 07",
+                    "sceneId": "scene07"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 19",
+                    "sceneId": "scene19"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 15,
+                    "type": "info",
+                    "text": "i16"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i17"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i20"
+                }
+            ]
+        },
+        "scene19": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi19.jpg",
+            "title": "大愛溯源館19",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 18",
+                    "sceneId": "scene18"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 20",
+                    "sceneId": "scene20"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 15,
+                    "type": "info",
+                    "text": "i18"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i19"
+                }
+            ]
+        },
+        "scene20": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi20.jpg",
+            "title": "大愛溯源館20",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 19",
+                    "sceneId": "scene19"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 21",
+                    "sceneId": "scene21"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 15,
+                    "type": "info",
+                    "text": "i15"
+                }
+            ]
+        },
+        "scene21": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi21.jpg",
+            "title": "大愛溯源館21",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 20",
+                    "sceneId": "scene20"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 22",
+                    "sceneId": "scene22"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "Go to Scene 26",
+                    "sceneId": "scene26"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i13"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i14"
+                }
+            ]
+        },
+        "scene22": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi22.jpg",
+            "title": "大愛溯源館22",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 21",
+                    "sceneId": "scene21"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 23",
+                    "sceneId": "scene23"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "Go to Scene 24",
+                    "sceneId": "scene24"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i7"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i8"
+                }
+            ]
+        },
+        "scene23": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi23.jpg",
+            "title": "大愛溯源館23",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 22",
+                    "sceneId": "scene22"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 24",
+                    "sceneId": "scene24"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i5"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i6"
+                }
+            ]
+        },
+        "scene24": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi24.jpg",
+            "title": "大愛溯源館24",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 22",
+                    "sceneId": "scene22"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 23",
+                    "sceneId": "scene23"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "Go to Scene 25",
+                    "sceneId": "scene25"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i3"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i4"
+                }
+            ]
+        },
+        "scene25": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi25.jpg",
+            "title": "大愛溯源館25",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 24",
+                    "sceneId": "scene24"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i1"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i2"
+                }
+            ]
+        },
+        "scene26": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi26.jpg",
+            "title": "大愛溯源館26",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 21",
+                    "sceneId": "scene21"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 27",
+                    "sceneId": "scene27"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i36"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i37"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i38"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i39"
+                }
+            ]
+        },
+        "scene27": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi27.jpg",
+            "title": "大愛溯源館27",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 26",
+                    "sceneId": "scene26"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 28",
+                    "sceneId": "scene28"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i11"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i12"
+                }
+            ]
+        },
+        "scene28": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi28.jpg",
+            "title": "大愛溯源館28",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 27",
+                    "sceneId": "scene27"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 29",
+                    "sceneId": "scene29"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i9"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i10"
+                }
+            ]
+        },
+        "scene29": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi29.jpg",
+            "title": "大愛溯源館29",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 28",
+                    "sceneId": "scene28"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 30",
+                    "sceneId": "scene30"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i47"
+                }
+            ]
+        },
+        "scene30": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi30.jpg",
+            "title": "大愛溯源館30",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 29",
+                    "sceneId": "scene29"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 31",
+                    "sceneId": "scene31"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 17,
+                    "type": "info",
+                    "text": "i45"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 19,
+                    "type": "info",
+                    "text": "i46"
+                }
+            ]
+        },
+        "scene31": {
+            "type": "equirectangular",
+            "panorama": "museum/tzuchi31.jpg",
+            "title": "大愛溯源館31",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -5,
+                    "type": "scene",
+                    "text": "Go to Scene 17",
+                    "sceneId": "scene17"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "Go to Scene 30",
+                    "sceneId": "scene30"
+                }
+            ]
+        }
+        
+    }
+}

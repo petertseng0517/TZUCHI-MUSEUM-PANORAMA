@@ -7,4 +7,4 @@ The system consists of three main files:
 3. **styles-museum.css**: Defines styles for rendering the display in the browser.  
 
 You can view the demo at the following URL:  
-([https://hlm.tzuchi.com.tw/panorama/museum.html](https://hlm.tzuchi.com.tw/vr/museum.html))
+([大愛溯源館全景VR導覽](https://hlm.tzuchi.com.tw/vr/museum.html))
